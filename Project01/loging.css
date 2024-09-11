@@ -28,12 +28,14 @@ form p{
 .input input{
   background-color: transparent;
   border: none;
-  border: 2px solid orangered;
+  border: 2px solid #C2FD0B;
   color: white;
   width: 400px;
   height: 7vh;
   font-size: 2rem;
   margin-bottom: 30px;
+  cursor: pointer;
+  
   
 }
 
@@ -45,7 +47,15 @@ form p{
   background: #C2FD0B;
   color: black;
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 4.7rem;
   margin-top: 30px;
+}
 
+.btn img {
+  width: 60px;
+}
+
+.btn:hover{
+  background-color: #9bc422;
+  transition: 400ms;
 }
