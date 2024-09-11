@@ -33,6 +33,7 @@ form p{
   width: 400px;
   height: 7vh;
   font-size: 2rem;
+  margin-bottom: 30px;
   
 }
 
@@ -41,6 +42,10 @@ form p{
   margin-bottom: 10px;
 }
 .btn{
-  background: red;
-  padding: 4px 5px ;
+  background: #C2FD0B;
+  color: black;
+  font-weight: 700;
+  font-size: 4rem;
+  margin-top: 30px;
+
 }
