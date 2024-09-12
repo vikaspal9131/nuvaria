@@ -74,7 +74,10 @@ form h4{
   margin-bottom: 30px;
   outline: none;
 }
-
+.input2 i {
+  font-size: 32px;
+  color: white;
+}
 .input1 p {
   text-align: start;
   margin-bottom: 10px;
