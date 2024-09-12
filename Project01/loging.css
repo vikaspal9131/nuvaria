@@ -28,8 +28,7 @@ form h4{
   
 
 }
-
-.input1 input{
+.input1 {
   background-color: transparent;
   border: none;
   border: 2px solid #C2FD0B;
@@ -40,6 +39,17 @@ form h4{
   margin-bottom: 30px;
   outline: none;
 }
+.input1 input{
+  background-color: transparent;
+  border: none;
+  color: white;
+  width: 380px;
+  height: 7vh;
+  font-size: 1.7rem;
+  margin-bottom: 30px;
+  outline: none;
+}
+
 
 
 .input2{
@@ -54,6 +64,16 @@ form h4{
   outline: none;
 }
 
+.input2 input{
+  background-color: transparent;
+  border: none;
+  color: white;
+  width: 350px;
+  height: 7vh;
+  font-size: 1.7rem;
+  margin-bottom: 30px;
+  outline: none;
+}
 
 .input1 p {
   text-align: start;
@@ -61,8 +81,16 @@ form h4{
   font-family: "Pixelify Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight:200;
-  word-spacing: 5px;
-  
+  word-spacing: 5px; 
+}
+
+.p2 {
+  text-align: start;
+  margin-bottom: 10px;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:200;
+  word-spacing: 5px; 
 }
 .btn{
   background: #C2FD0B;
