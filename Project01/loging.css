@@ -29,7 +29,7 @@ form h4{
 
 }
 
-.input input{
+.input1 input{
   background-color: transparent;
   border: none;
   border: 2px solid #C2FD0B;
@@ -39,12 +39,23 @@ form h4{
   font-size: 1.7rem;
   margin-bottom: 30px;
   outline: none;
-
-  
 }
 
 
-.input p {
+.input2{
+  background-color: transparent;
+  border: none;
+  border: 2px solid #C2FD0B;
+  color: white;
+  width: 400px;
+  height: 7vh;
+  font-size: 1.7rem;
+  margin-bottom: 30px;
+  outline: none;
+}
+
+
+.input1 p {
   text-align: start;
   margin-bottom: 10px;
   font-family: "Pixelify Sans", sans-serif;
