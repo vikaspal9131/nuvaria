@@ -98,11 +98,12 @@ form h4{
 .btn{
   background: #C2FD0B;
   color: black;
-  /* font-weight: 900; */
   font-size: 4.7rem;
   margin-top: 30px;
+ 
   cursor: pointer;
 }
+
 
 .btn p {
   font-weight: 700;
