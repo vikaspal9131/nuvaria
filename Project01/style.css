@@ -195,3 +195,25 @@ html body {
   margin-top: 20vh;
 }
 
+.slider-container {
+  height: 300px; /* Set the height of the slider container */
+  overflow: hidden; /* Hide overflow */
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column; /* Arrange slides vertically */
+  transition: transform 0.5s ease; /* Smooth transition */
+}
+
+.slide {
+  height: 100%; /* Full height of the container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3498db;
+  color: white;
+  font-size: 24px;
+  border-bottom: 2px solid white; /* Optional: Add a separator */
+}
