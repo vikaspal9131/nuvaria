@@ -72,3 +72,18 @@ function updateSliderPosition() {
 
 // Automatically slide every 2 seconds
 setInterval(slideToNext, 2000);
+
+
+// script.js
+document.addEventListener('DOMContentLoaded', function() {
+    const questions = document.querySelectorAll('.faq-question');
+
+    questions.forEach(question => {
+        question.addEventListener('click', function() {
+            const answer = this.nextElementSibling;
+
+            // Toggle the answer visibility
+            answer.classList.toggle('show');
+        });
+    });
+});

@@ -28,3 +28,11 @@ function typeWriter() {
 window.onload = typeWriter;
 
 
+
+// locomotive js for smooth scrolling 
+
+const locoScroll = new LocomotiveScroll({
+  el: document.querySelector("#main"),
+  smooth: true ,
+  lerp:0.06
+});

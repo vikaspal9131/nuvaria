@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
   <link rel="stylesheet" href="/hackthon porject/css/styles.css">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,29 +15,30 @@
 </head>
 
 <body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="index.html"><i class="ri-slack-fill"></i> FrameGen</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="services.html">Services</a></li>
+      </ul>
+      <div class="sign-in">
+        <a href="loging.html" class="sign-in-btn"> Get Started</a>
+      </div>
+    </nav>
+  </header>
   <div id="main">
 
  <!-- home page start -->
     <div class="home-base">
 
       <!-- header-start -->
-      <header>
-        <nav class="navbar">
-          <div class="logo">
-            <a href="index.html"><i class="ri-slack-fill"></i> FrameGen</a>
-          </div>
-          <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="features.html">Features</a></li>
-            <li><a href="services.html">Services</a></li>
-          </ul>
-          <div class="sign-in">
-            <a href="loging.html" class="sign-in-btn"> Get Started</a>
-          </div>
-        </nav>
-      </header>
+   
       <!-- header-end -->
       <div class="centered-content">
         <div class="home-content">
@@ -192,7 +194,7 @@
 
     <div class="gallery">
 
-      <div class="image-about">
+      <div class="image-about" >
         <div class="image-text">
           <h3>AI pipeline</h3>
           <h4>Building Image, <br> end-to-end</h4>
@@ -221,7 +223,7 @@
         </div>
 
       </div>
-      <div class="images-side">
+      <div class="images-side" data-scroll data-scroll-speed="1" data-scroll-direction="horizontal">
         <div class="image-container">
 
           <div class="image-reel">
@@ -284,102 +286,83 @@
       </div>
     </div>
 
-
     <div class="faq-page">
+
       <h1>Got questions? <br>
         Join the community.</h1>
-      <p>
+      <h2>
         Our Discord community and staff are here to help! <br>
         Your feedback will help Dora AI improve in future versions.
-      </p>
-
-      <button class="join-btn"> Join Discord
-        <i class="ri-arrow-right-line"></i>
-      </button>
-
-      <!-- <div class="faq">
-
-        <div class="question">
-          <details>
-            <summary>
-
-              What is your return policy?
-
-            </summary>
+      </h2>
 
 
-            <p>Our return policy lasts 30 days. If 30 days have gone by since your purchase, unfortunately, we can’t
-              offer you a refund or exchange.
 
-            </p>
-
-          </details>
-        </div>
-
-        <details>
-          <summary>Do you ship internationally?</summary>
-          <p>Yes, we ship to many countries around the world. Shipping costs will apply, and will be added at checkout.
-          </p>
-        </details>
-
-        <details>
-          <summary>How can I track my order?</summary>
-          <p>Once your order is shipped, we will send you a tracking number via email so that you can monitor its
-            progress.</p>
-        </details>
-      </div> -->
-    </div>
-
-    
-
-    <div class="footer">
-      <div class="footer-part1">
-
-        <div class="feedback">
-          <h1>Image G</h1>
-          <div class="input-group">
-            <input type="email" class="input" id="Email" name="Email" placeholder="hyperhorizon.com" autocomplete="off">
-            <input class="button--submit" value="Subscribe" type="submit">
-          </div>
-
-          <div class="social-media">
-            <i class="ri-github-fill"> </i>
-            <i class="ri-facebook-circle-fill"></i>
-            <i class="ri-instagram-line"></i>
-            <i class="ri-linkedin-box-fill"></i>
-          </div>
-
-        </div>
-        <div class="list-div">
-          <h3>Company</h3>
-          <li>Our offerings </li>
-          <li>Newsroom</li>
-          <li>Investors</li>
-          <li>Careers</li>
-
-        </div>
-        <div class="list-div">
-          <h3>Products</h3>
-          <li>Ride</li>
-          <li>Drive</li>
-          <li>Deliver</li>
-          <li>Eat</li>
-          <li>Business</li>
-
-        </div>
-        <div class="list-div">
-          <h3>Global citizenship</h3>
-          <li>Safety</li>
-          <li>Diversity and Inclusion</li>
-          <li>Sustainability</li>
-        </div>
-      </div>
+      <button class="join-btn"> Join Discord<i class="ri-arrow-right-line"></i></button>
 
 
-    </div>
+   
+
+
+  
+
+
   </div>
 
 
+  
+  <div class="footer">
+    <div class="footer-part1">
+
+      <div class="feedback">
+        <h1><i class="ri-slack-fill"></i>  FrameGen</h1>
+        <div class="input-group">
+          <input type="email" class="input" id="Email" name="Email" placeholder="hyperhorizon.com" autocomplete="off">
+          <input class="button--submit" value="Subscribe" type="submit">
+        </div>
+
+        <div class="social-media">
+          <i class="ri-github-fill"> </i>
+          <i class="ri-facebook-circle-fill"></i>
+          <i class="ri-instagram-line"></i>
+          <i class="ri-linkedin-box-fill"></i>
+        </div>
+
+      </div>
+
+
+
+      <div class="list-div">
+        <h3>Company</h3>
+        <li>Our offerings </li>
+        <li>Newsroom</li>
+        <li>Investors</li>
+        <li>Careers</li>
+
+      </div>
+      <div class="list-div">
+        <h3>Products</h3>
+        <li>Ride</li>
+        <li>Drive</li>
+        <li>Deliver</li>
+        <li>Eat</li>
+        <li>Business</li>
+
+      </div>
+      <div class="list-div">
+        <h3>Global citizenship</h3>
+        <li>Safety</li>
+        <li>Diversity and Inclusion</li>
+        <li>Sustainability</li>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
 <script src="/hackthon porject/script/scritp.js"></script>
 </body>
 
