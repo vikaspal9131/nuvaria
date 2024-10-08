@@ -127,13 +127,13 @@ form h1 {
   text-align: center;
   color: #F55615;
   font-size: 2rem;
-  /* margin-top: 40px;   */
+  margin-top: -40px;  
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
-  padding: 10px; 
+  padding: 28px; 
 }
 
 .manu i{
@@ -148,13 +148,16 @@ form h1 {
  align-items: center;
  margin-left: 50px;
 
+
 }
 .log h1{
-  font-weight: 400;
+  font-weight: 500;
+  margin-left: 5px;
 }
 .log i{
   font-size: 30px;
-  color: orangered;
+  color: #FF5F38;
+
 }
 
 .log{
@@ -164,17 +167,13 @@ form h1 {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  /* padding: 10px;  */
-  /* margin-bottom: 10px; */
-  /* background-color: red ; */
+
 }
 .resetpass {
   width: 100%;
   text-align: end;
-  /* background-color: red ; */
 }
 .resetpass a{
-  /* text-decoration: none; */
   color: white;
   padding: 10px;
 }
