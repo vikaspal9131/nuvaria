@@ -45,17 +45,7 @@ main {
   background-color: black;
 }
 
-.otp-box h2 {
-  font-size: 3rem;
-  margin-bottom: 10px;
-  text-align: center;
-}
 
-.otp-box p {
-  margin-bottom: 20px;
-  text-align: center;
-  color: #555;
-}
 
 .otp-inputs {
   display: flex;
@@ -115,4 +105,15 @@ button {
 }
 .other-icon p {
   font-size: 1.3rem;
+}
+.otp-box h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.otp-box h3 {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 500;
 }
