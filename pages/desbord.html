@@ -4,14 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>dashbord</title>
+  <link rel="stylesheet" href="/css/dashbord.css">
 </head>
 <body>
   <div id="main">
-    <h1>text 2 image</h1>
-    <label for="">Create an image from text prompt:</label>
-    <input type="text" id="input">
-    <button>Generate</button>
-    <img id="image" src="" alt="">
+
+    <div class="history">
+      <div class="input-base">
+        <input type="text" id="input">
+        <div class="btn-body">
+          <button id="btn">Generate</button>
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <div class="content">
+      <div class="image-div">
+        <img id="image" src="" alt="">
+      </div>
+    </div>
+
+   
+
   </div>
   <script src="/script/dashbord.js"></script>
 </body>
