@@ -4,18 +4,52 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>dashbord</title>
+  <link rel="stylesheet" href="/css/styles.css">
   <link rel="stylesheet" href="/css/dashbord.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+    <link rel="shortcut icon" href="/assets/image/favicon/fevicon.svg" type="image/x-icon">
+  <title>nuvaria</title>
 </head>
 <body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="index.html"><i class="ri-loader-2-fill"></i>
+            nuvaria
+        </a>
+      </div>
+      <!-- <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="services.html">Services</a></li>
+      </ul> -->
+      <div class="sign-in">
+        <a href="loging.html" class="sign-in-btn"> Get Started</a>
+      </div>
+    </nav>
+  </header>
+  <div class="heading">
+    <h1>Generate AI Free Stock Images</h1>
+    <p>Generate AI Free Stock Images uses AI to create high-quality, royalty-free images for <br>any project. With a simple interface, you can 
+      quickly generate custom images for free, perfect for enhancing creative work.</p>
+  </div>
   <div id="main">
+
 
     <div class="history">
       <div class="input-base">
-        <input type="text" id="input">
+         <textarea  id="input" placeholder="Create image for"></textarea>
+        </div>
         <div class="btn-body">
           <button id="btn">Generate</button>
         </div>
-      </div>
 
     </div>
 
@@ -23,7 +57,7 @@
     
     <div class="content">
       <div class="image-div">
-        <img id="image" src="" alt="">
+        <img id="image" src="" >
       </div>
     </div>
 

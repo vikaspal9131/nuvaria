@@ -251,7 +251,11 @@ header {
   cursor: pointer;
   transition: background-color 0.3s;
 }
-.text-gen .btn1:hover{
+.text-gen .btn1 a{
+  text-decoration: none;
+  color: white;
+}
+.text-gen .btn1 a :hover{
   background-color: white;
   color: #000000;
   transition: 500ms;
