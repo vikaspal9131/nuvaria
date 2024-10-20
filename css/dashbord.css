@@ -12,11 +12,11 @@ html body {
 
 #main{
   width: 100%;
-  height: 100%;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(255, 0, 0);
+  /* background-color: rgb(255, 0, 0); */
 }
 
 .content{
@@ -25,21 +25,22 @@ html body {
   display: flex;
   /* align-items: center; */
   justify-content: center;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 .history{
   width: 50%;
   height: 100%;
-  background-color: rgb(62, 144, 28);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color:   rgb(62, 144, 28); */
   color: white;
 }
 
 .input-base{
-  width: 100%;
+  width: 70%;
   height: 50vh;
-  /* background-color: red; */
-  display: flex;
 }
 
 #image{
@@ -72,7 +73,11 @@ textarea {
   height: 50px;
   margin-top:  30px;
   font-size: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: #7F7F7F;
 }
+
 
 
 .image-div{
@@ -90,5 +95,11 @@ textarea {
   color: white;
   text-align: center;
   padding: 40px;
+}
+.heading h1 {
+  font-size: 2.3rem;
+}
+.heading p{
+   font-size: 1rem;
 }
 
