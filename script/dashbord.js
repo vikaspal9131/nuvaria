@@ -28,3 +28,24 @@ btn.addEventListener('click' , async function () {
 		image.src = objectURL
 	});
 })
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  const buttons = document.querySelectorAll('.btn-body1 button');
+
+  buttons.forEach(button => {
+    button.addEventListener('click', () => {
+      // Remove the active class from all buttons
+      buttons.forEach(btn => {
+        btn.classList.remove('active');
+        btn.style.backgroundColor = ''; // Reset background color
+      });
+
+      // Add the active class to the clicked button and change its background
+      button.classList.add('active');
+      button.style.backgroundColor = button.id === 'btn-stander' ? '#BC4B21' : ' #BC4B21';
+    });
+  });
+});
+
