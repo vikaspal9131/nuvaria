@@ -1,8 +1,8 @@
 const texts = [
-  "Welcome to VisionaryGen! lorem orem dolor  ",
-  "Create stunning images instantly. sit amet, c",
-  "Generate high-quality videos in seconds onsectetur ",
-  "Unleash your creativity with AI. adipisicing elit. Officiis aliq."
+  "Welcome to nuvaria.AI Generate image in seconds...  ",
+  "Effortless Image Creation – Explore Endless Visual Styles.",
+  "Transform Your Imagination into Reality in Just Seconds. ",
+  "Discover the Power of Instant AI Image Generation."
 ];
 let index = 0;
 let textIndex = 0;
