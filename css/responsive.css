@@ -1,24 +1,59 @@
 
 
 /* Apply styles when the viewport width is 425px or less */
-@media screen and (max-width: 275px) and (max-height: 643px) {
-  /* body{
-    overflow: hidden;
-  } */
+@media screen and (max-width: 426px)  {
+
+  
   .nav-links{
     display: none;
   }
 
-  .home-img img{
+
+  .home-content h1{
+    font-size:44px;
+    padding: 30px;
+    margin-top: 0px;
+  
+  }
+
+  .home-content p{
+    padding: 0px 10px;
+    color: white;
+  }
+
+  .home-img{
     display: none;
   }
- 
-  .home-content h1{
-    margin-top: 0px;
-    font-size: 34px;
-    padding: 0px 20px;
+  .text-gen {
+    justify-content: center;
+    margin-left: 30px;
+    align-items: center;  
+  
+  }
+  .text-gen .btn1 {
+    display: none;
+  }
+  
+  #typewriter{
+     width: 85%;
   }
 
+   .text-gen p {
+      margin-top: 30px;
+      font-size: 13px;
+  }
 
+  .sub-div{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
 
+  #image{
+    width: 20vw;
+    height: 30vh;
+  }
+
+  .center-div{
+    width: 90%;
+}
 }
