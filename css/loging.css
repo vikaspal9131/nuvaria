@@ -193,7 +193,7 @@ form h1 {
 }
 
 
-.other-icon {
+.google-btn {
   width: 90%;
   margin-top: 10px;
   border-radius: 20px;
@@ -208,9 +208,9 @@ form h1 {
 }
 
 
-.other-icon img {
+.google-btn img {
   width: 30px;
 }
-.other-icon p {
+.google-btn p {
   font-size: 1.3rem;
 }
