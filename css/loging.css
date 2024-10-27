@@ -8,10 +8,11 @@ html body {
   height: 100%;
   width: 100%;
   user-select: none;
+  background-color: black;
 }
 
 .loging{
-  width: 100%;
+  /* width: 100%; */
   height: 100vh;
   background-color: #010101;
   color: rgb(255, 255, 255);
@@ -20,11 +21,15 @@ html body {
   align-items: center;
   text-align: center;
 
+
 }
 
-
 form {
-  width: 421px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+
 }
 
 form h4{
@@ -75,6 +80,7 @@ form h4{
   font-size: 1.3rem;
   margin-bottom: 0px;
   outline: none;
+
 }
 .input2 i {
   font-size: 20px;
@@ -90,6 +96,7 @@ form h4{
 }
 
 .p2 {
+  width: 98%;
   text-align: start;
   margin-bottom: 10px;
   font-family: "Pixelify Sans", sans-serif;
@@ -98,7 +105,7 @@ form h4{
   word-spacing: 5px; 
 }
 .btn{
-  width: 100%;
+  width: 98%;
   background: #F55615;
   color: black;
   font-size: 3rem;
@@ -106,7 +113,6 @@ form h4{
   cursor: pointer;
 
 }
-
 
 .btn p {
   font-weight: 700;
@@ -120,17 +126,18 @@ form h4{
   font-family: "Kanit", sans-serif;
   font-weight: 900;
   margin-bottom: 14px;
-  font-size: 2.3rem;  
+  font-size: 2.5rem;  
 }
 
 form h1 {
   text-align: center;
   color: #F55615;
   font-size: 2rem;
-  margin-top: -40px;  
+  /* margin-top: -40px;   */
 }
 
 .nav {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 28px; 
@@ -138,7 +145,7 @@ form h1 {
 
 .manu i{
    font-size: 30px;
-   margin-right: 50px;
+   /* margin-right: 50px; */
  }
 
 
@@ -164,10 +171,9 @@ form h1 {
   display: flex;
 }
 .nav {
-  width: 100%;
   display: flex;
   justify-content: space-between;
-
+  /* background-color: red; */
 }
 .resetpass {
   width: 100%;
@@ -177,8 +183,6 @@ form h1 {
   color: white;
   padding: 10px;
 }
-
-
 
 .new-acc{
   margin-top: 10px;
@@ -190,7 +194,7 @@ form h1 {
 
 
 .other-icon {
-  width: 100%;
+  width: 90%;
   margin-top: 10px;
   border-radius: 20px;
   border: 1px solid white;

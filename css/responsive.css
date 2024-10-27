@@ -3,11 +3,9 @@
 /* Apply styles when the viewport width is 425px or less */
 @media screen and (max-width: 426px)  {
 
-  
   .nav-links{
     display: none;
   }
-
 
   .home-content h1{
     font-size:44px;
@@ -48,12 +46,123 @@
     flex-direction: column-reverse;
   }
 
-  #image{
-    width: 20vw;
-    height: 30vh;
-  }
-
   .center-div{
     width: 90%;
+  } 
+
+  #image{
+  width: 80vw;
+  }
+  
+  .gallery{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .image3{
+    display: none;
+  }
+  .image-text h4{
+    font-size: 2.6rem;
+  }
+  .text-point{
+    font-size: 0.8rem;
+  }
+
+  .getstart-page h1{
+    font-size: 50px;
+    padding: 10px;
+    line-height:45px;
+  }
+
+  .getstart-hover-button{
+    padding: 12px 20px;
+    font-size: 30px;
+  }
+
+  .getstart-page h3{
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .footer-part1{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .social-media{
+    font-size: 1.5rem;
+    align-items: start;
+     gap: 20px;
+  }
+
+  
+  .feedback{
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .list-div{
+    padding-left: 20px;
+  }
+  
+
+
+  .input1 {
+    width: 80%;
+  }
+  .input2 {
+    width: 80%;
+  }
+
+  .btn{
+    width: 80%;
+  }
+
+  .other-icon{
+    width: 80%;
+  }
+ 
+.resetpass{
+  width: 80%;
 }
+
+form h4{
+  font-size: 15px;
+}
+
+.input2 input{
+  width: 80%;
+}
+.p2 {
+  width: 80%;
+}
+
+.loging{
+ overflow-x: hidden;
+}
+
+form {
+  padding-bottom: 10px;
+}
+form h2{
+  padding: 10px;
+}
+
+.loging h2{
+  font-size: 2rem;
+}
+
+.log{
+  margin-left: 0px;
+}
+.log h1{
+  margin-left: 0px;
+}
+
+.container{
+  margin-top: -100px;
+}
+.other-icon{
+  width: 100%;
+}
+
 }
