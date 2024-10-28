@@ -38,26 +38,11 @@ const locoScroll = new LocomotiveScroll({
 });
 
 
-// Function to display user profile
-async function displayUserProfile() {
-  const user = auth.currentUser; // Get the current user
-  
-  if (user) {
-      const userRef = doc(db, "users", user.uid); // Reference to the user's document in Firestore
-      const userDoc = await getDoc(userRef); // Get the document
 
-      if (userDoc.exists()) {
-          const userData = userDoc.data(); // Retrieve user data
-          document.getElementById("userName").innerText = `Name: ${userData.name}`;
-          document.getElementById("userEmail").innerText = `Email: ${userData.email}`;
-          document.getElementById("userPhoto").src = userData.photoURL || ""; // Set user photo
-      } else {
-          console.log("No such user document!");
-      }
-  } else {
-      console.log("No user is currently signed in.");
-  }
-}
+// const photo = document.querySelector('.sign-in-btn');
 
-// Call the function to display user profile when the page loads
-window.onload = displayUserProfile;
+// photo.addEventListener("click" ,() =>{
+//    alert(3)
+// })
+
+

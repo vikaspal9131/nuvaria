@@ -164,5 +164,12 @@ form h2{
 .other-icon{
   width: 100%;
 }
+#userPhoto{
+  width: 49%;
+  border-radius: 50%;
+  margin-right: -35px;
+
+  
+}
 
 }
