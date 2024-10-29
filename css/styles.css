@@ -63,10 +63,12 @@
 html body {
   height: 100%;
   width: 100%;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body::-webkit-scrollbar {
   display: none;
+ 
 }
 
 .home-base {
@@ -105,6 +107,8 @@ header {
   font-weight: 600;
   text-decoration: none;
   color: white;  
+  outline: none;
+
 }
 
 .logo i{

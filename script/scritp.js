@@ -39,10 +39,6 @@ const locoScroll = new LocomotiveScroll({
 
 
 
-// const photo = document.querySelector('.sign-in-btn');
 
-// photo.addEventListener("click" ,() =>{
-//    alert(3)
-// })
 
 

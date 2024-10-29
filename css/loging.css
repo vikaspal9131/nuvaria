@@ -24,6 +24,19 @@ html body {
 
 }
 
+.logo a {
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;  
+}
+
+.logo i{
+  color:#FF5F38;
+}
+
+
+
 form {
   display: flex;
   flex-direction: column;
@@ -204,6 +217,7 @@ form h1 {
   gap: 10px;
   margin-top: 40px;
   padding: 10px;
+  cursor: pointer;
 
 }
 
