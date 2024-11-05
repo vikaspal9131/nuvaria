@@ -208,7 +208,6 @@ form h1 {
 
 
 .google-btn {
-  width: 90%;
   border-radius: 20px;
   border: 1px solid white;
   display: flex;
@@ -216,7 +215,7 @@ form h1 {
   justify-content: center;
   gap: 10px;
   margin-top: 20px;
-  padding: 10px;
+  padding: 10px 40px;
   cursor: pointer;
 
 }
