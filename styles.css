@@ -259,11 +259,6 @@ header {
   text-decoration: none;
   color: white;
 }
-.text-gen .btn1 a :hover{
-  background-color: white;
-  color: #000000;
-  transition: 500ms;
-}
 
 .page2 {
   width: 100%;
@@ -1035,6 +1030,12 @@ textarea {
   margin-top: 20px;
 }
 
+#btn:hover{
+  background-color: white;
+  color: black;
+  transition: 300ms;
+}
+
 
 
 
@@ -1162,8 +1163,18 @@ select {
   margin-top: 20px;
 }
 
+.btn2{
+  display: none;
+}
+#btn a {
+  text-decoration: none;
+  color: white;
+}
 
 
+a{
+  text-decoration: none;
+}
 
 
 /* responsive for  */
@@ -1235,7 +1246,8 @@ select {
     font-size: 2.6rem;
   }
   .text-point{
-    font-size: 0.8rem;
+    font-size: 1rem;
+    font-weight: 300;
   }
 
   .getstart-page h1{
@@ -1340,8 +1352,6 @@ form h2{
   margin-right: -35px;
 }
 
-
-
 .input-base{
   width: 100%;
   display: flex;
@@ -1363,6 +1373,22 @@ form h2{
 .last{
   color: white;
   text-align: center;
+}
+
+ .btn2 {
+  display: inline-block;
+  padding: 7px 30px;
+  font-size: 16px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+ a{
+  text-decoration: none;
+  color: white;
 }
 } 
 
