@@ -976,3 +976,188 @@ details p {
   border: 1px solid white;
 }
 
+.dashbord{
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.content{
+  /* width:70%; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  /* background-color: RED; */
+}
+
+.history{
+  user-select: none;
+  color: white;
+  /* background-color: red; */
+  
+}
+
+
+
+
+
+
+textarea {
+  height: 40vh;
+  border-radius: 10px;
+  padding:15px ;
+  font-size: 1.1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+  background: #383636;
+  color: white;
+  resize: none;
+  margin-top: 30px;
+  outline: none;
+  width: 270px;
+  margin-left: 10px;
+}
+
+#btn{ 
+  width: 270px;
+  padding: 15px 90px ;
+  border-radius: 30px;
+  border: none;
+  font-size: 1.1rem;
+  background-color:#BC4B21;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+
+
+
+#image{
+  width: 30vw;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+  user-select: none;
+  background: none;
+  position: relative;
+  border-radius: 10px;
+}
+.heading{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+.heading h1 {
+  font-size: 2.3rem;
+}
+.heading p{
+   font-size: 1rem;
+}
+
+.center-div{
+ padding: 30px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background: rgba( 255, 255, 255, 0.15 );
+ backdrop-filter: blur( 1.5px );
+ -webkit-backdrop-filter: blur( 1.5px );
+ border-radius: 10px;
+
+}
+
+.sub-div{
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  padding: 30px;
+}
+
+.btn-body1{
+  width: 96%;
+  display: flex;
+  justify-content: space-around;
+  border: 0.2px solid white;
+  border-radius: 30px;
+  padding: 4px 0px;
+}
+
+
+#btn-stander{
+  padding: 8px 30px ;
+  border-radius: 30px;
+  border: none;
+  font-size: 1.1rem;
+  background:none;
+  color: white;
+  cursor: pointer;
+}
+
+#btn-hd{
+  padding: 8px 50px ;
+  border-radius: 30px;
+  border: none;
+  font-size: 1.1rem;
+  background:none;
+  color: white;
+  cursor: pointer;
+}
+
+
+.history>h5 {
+  text-align: start;
+  margin: 20px 0px 8px;
+  font-size: 1rem;
+  font-weight:400;
+}
+.history>p {
+  font-size: 1.2rem;
+  
+}
+
+.option-choosing{
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px ;
+  margin-top: 10px ;
+
+}
+
+select {  
+
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left:50px;
+  background-color: #BC4B21;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+
+#download-btn{
+  background-color:#BC4B21;
+  margin-top: 10px;
+  text-decoration: none; 
+  color: inherit; 
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: white;
+
+}
+
+ 
+
+.last{
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}

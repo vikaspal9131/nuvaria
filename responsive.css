@@ -166,11 +166,33 @@ form h2{
   width: 100%;
 }
 #userPhoto{
-  width: 49%;
+  width: 47%;
   border-radius: 50%;
   margin-right: -35px;
-
-  
 }
 
+
+
+.input-base{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#btn{ 
+  width: 300px;
+}
+
+.btn-body1{
+  width: 90%;
+}
+
+.list-div{
+  display: none;
+}
+
+.last{
+  color: white;
+  text-align: center;
+}
 }
