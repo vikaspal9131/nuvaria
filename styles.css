@@ -1169,8 +1169,8 @@ select {
 /* responsive for  */
 
 
-/* Apply styles when the viewport width is 425px or less */
-/* @media screen and (max-width: 426px)  {
+
+@media screen and (max-width: 426px)  {
 
   .nav-links{
     display: none;
@@ -1364,12 +1364,12 @@ form h2{
   color: white;
   text-align: center;
 }
-} */
+} 
 
 
 
 
-/* resistertion  */
+
 
 
 
