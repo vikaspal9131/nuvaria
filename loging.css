@@ -37,14 +37,18 @@ html body {
 
 
 form {
-  width: 410px;
-  
+  background: rgba( 255, 255, 255, 0.15 );
+  backdrop-filter: blur( 1.5px );
+  -webkit-backdrop-filter: blur( 1.5px );
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; 
-
+  padding: 20px;
+  border-radius: 10px;
 }
+
+
 
 form h4{
   margin-bottom: 20px;
@@ -56,7 +60,7 @@ form h4{
   background-color: transparent;
   border: none;
   border: 2px solid #F55615;
-  width: 100%;
+  /* width: 100%; */
   height: 5vh;
   margin-bottom: 20px;
   outline: none;
@@ -78,7 +82,7 @@ form h4{
   border: none;
   border: 2px solid #F55615;
   color: white;
-  width: 100%;
+  /* width: 100%; */
   height: 6vh;
   font-size: 1.3rem;
   margin-bottom: 5px;
@@ -89,7 +93,7 @@ form h4{
   background-color: transparent;
   border: none;
   color: rgb(255, 255, 255);
-  width: 350px;
+  width: 340px;
   height: 5vh;
   font-size: 1.3rem;
   margin-bottom: 0px;
@@ -99,6 +103,7 @@ form h4{
 .input2 i {
   font-size: 20px;
   color: rgb(255, 255, 255);
+  margin-right: 10px;
 }
 .input1 p {
   text-align: start;
@@ -119,12 +124,13 @@ form h4{
   word-spacing: 5px; 
 }
 .btn{
-  width: 98%;
+  /* width: 98%; */
   background: #F55615;
   color: black;
   font-size: 3rem;
   margin-top: 30px;
   cursor: pointer;
+  padding: 0px 80px;
 
 }
 
@@ -140,7 +146,7 @@ form h4{
   font-family: "Kanit", sans-serif;
   font-weight: 900;
   margin-bottom: 14px;
-  font-size: 2.5rem;  
+  font-size: 2rem;  
 }
 
 form h1 {
@@ -148,6 +154,10 @@ form h1 {
   color: #F55615;
   font-size: 2rem;
   /* margin-top: -40px;   */
+}
+form h2 {
+  font-size: 1rem;
+
 }
 
 .nav {

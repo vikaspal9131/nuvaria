@@ -38,9 +38,6 @@ googleBtn.addEventListener("click" , () => {
   });
 })
 
-
-
-
   const user = auth.currentUser;
 
   function updateUserProfile(user){

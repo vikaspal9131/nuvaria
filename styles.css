@@ -1188,7 +1188,7 @@ a{
   }
 
   .home-content h1{
-    font-size:44px;
+    font-size : 10vw;
     padding: 30px;
     margin-top: 0px;
   
@@ -1198,6 +1198,7 @@ a{
   .home-content p{
     padding: 0px 10px;
     color: white;
+    font-size: 14px;
   }
 
   .home-img{
@@ -1208,6 +1209,10 @@ a{
     margin-left: 30px;
     align-items: center;  
   
+  }
+
+  .text-gen h2 i {
+    color: #BC4B21;
   }
   .text-gen .btn1 {
     display: none;
