@@ -164,6 +164,8 @@ header {
   color: rgb(211, 216, 218);
 }
 
+
+
 .home-content {
   margin-bottom: 10px;
   position: absolute;
@@ -1352,9 +1354,9 @@ form h2{
   width: 100%;
 }
 #userPhoto{
-  width: 47%;
+  width: 100%;
   border-radius: 50%;
-  margin-right: -35px;
+  margin-right: -70px;
 }
 
 .input-base{

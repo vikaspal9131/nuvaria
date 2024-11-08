@@ -42,8 +42,9 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center; 
-  padding: 20px;
+  padding: 2vw;
   border-radius: 10px;
+  border: 1px solid white;
 }
 
 
