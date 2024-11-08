@@ -28,22 +28,50 @@ async function query() {
 
 
 
+// btn.addEventListener('click', async function () {
+// 	downloadBtn.style.display = "none";
+
+// 	query().then((response) => {
+// 		const objectURL = URL.createObjectURL(response);
+// 		image.src = objectURL;
+
+
+
+// 		// Enable and set up the download button
+// 		downloadBtn.style.display = "inline-block"; // Show the download button
+// 		downloadBtn.href = objectURL;               // Set the download URL
+// 		downloadBtn.download = "nuvaria.png"; // Default file name for download
+// 	});
+
+const input = document.getElementById('input'); // Textarea input
+
 btn.addEventListener('click', async function () {
-	downloadBtn.style.display = "none";
+    const promptText = input.value.trim();
 
-	query().then((response) => {
-		const objectURL = URL.createObjectURL(response);
-		image.src = objectURL;
+    // Check if the textarea is empty
+    if (!promptText) {
+        alert("Please enter your prompt"); // Display an alert if empty
+        return;
+    }
+
+    downloadBtn.style.display = "none"; // Hide the download button initially
+
+    try {
+        const response = await query(); // Assume query() is a function that generates the image
+        const objectURL = URL.createObjectURL(response);
+        image.src = objectURL;
+
+        // Enable and set up the download button
+        downloadBtn.style.display = "inline-block"; // Show the download button
+        downloadBtn.href = objectURL;               // Set the download URL
+        downloadBtn.download = "nuvaria.png";       // Default file name for download
+    } catch (error) {
+        console.error("Error generating image:", error);
+    }
+});
 
 
-
-		// Enable and set up the download button
-		downloadBtn.style.display = "inline-block"; // Show the download button
-		downloadBtn.href = objectURL;               // Set the download URL
-		downloadBtn.download = "nuvaria.png"; // Default file name for download
-	});
-
-})
+// })
 
 
 
