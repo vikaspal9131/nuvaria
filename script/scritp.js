@@ -25,31 +25,27 @@ function typeWriter() {
       }, delay);
   }
 }
+
 window.onload = typeWriter;
-
-
-
-// locomotive js for smooth scrolling 
 
 const locoScroll = new LocomotiveScroll({
   el: document.querySelector("#main"),
   smooth: true ,
-  lerp:0.06
+  lerp:0.09
 });
 
-// Function to show the login form
+
 function showLoginForm() {
   document.getElementById("loginForm").style.display = "block";
   document.getElementById("registerForm").style.display = "none";
 }
 
-// Function to show the register form
 function showRegisterForm() {
   document.getElementById("loginForm").style.display = "none";
   document.getElementById("registerForm").style.display = "block";
 }
 
-// Initialize the page with the login form visible
+
 document.addEventListener("DOMContentLoaded", showLoginForm);
 
 

@@ -1354,9 +1354,9 @@ form h2{
   width: 100%;
 }
 #userPhoto{
-  width: 100%;
+  width: 120%;
   border-radius: 50%;
-  margin-right: -70px;
+  margin-right: -60px;
 }
 
 .input-base{
