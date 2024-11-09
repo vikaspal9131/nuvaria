@@ -1,3 +1,15 @@
+window.addEventListener('load', function () {
+  const loaderTimeout = 4000; 
+
+  setTimeout(() => {
+      document.getElementById('loading').style.display = 'none';
+      content.style.display = 'block';
+  }, loaderTimeout);
+});
+
+
+
+
 const texts = [
   "Welcome to nuvaria.AI Generate image in seconds...  ",
   "Effortless Image Creation – Explore Endless Visual Styles.",
