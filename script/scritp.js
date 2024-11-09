@@ -3,9 +3,18 @@ window.addEventListener('load', function () {
 
   setTimeout(() => {
       document.getElementById('loading').style.display = 'none';
+      
+    
       content.style.display = 'block';
+   
+
+      
+      
   }, loaderTimeout);
+
 });
+
+
 
 
 
