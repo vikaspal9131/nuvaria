@@ -1,5 +1,5 @@
 window.addEventListener('load', function () {
-  const loaderTimeout = 4000; 
+  const loaderTimeout = 2000; 
 
   setTimeout(() => {
       document.getElementById('loading').style.display = 'none';
