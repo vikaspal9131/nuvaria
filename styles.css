@@ -1453,6 +1453,7 @@ form h2{
   align-items: center;
   justify-content: center;
   z-index: 9999;
+  color: white;
 
 }
 .loader-icon{
@@ -1484,7 +1485,9 @@ form h2{
 .loader:after {
   -webkit-mask-position: 1ch 50%;
   --s:-1;
-}
+} 
+
+
 
 
 
