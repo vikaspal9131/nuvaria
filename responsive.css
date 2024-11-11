@@ -195,4 +195,51 @@ form h2{
   color: white;
   text-align: center;
 }
+
+.google-btn{
+  width: 80%;
+  padding: 6px ;
+  margin-top: 10px;
+}
+.p2{
+  margin: 10px 10px;
+  text-align: center;
+  background-color: red;
+}
+
+.input1 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.input2{
+  margin-bottom: 1px;
+  
+}
+.input2 input{
+  margin-left: 10px;
+}
+.input1 input{
+  margin-left: 5px;
+}
+
+
+.google-btn p {
+  font-size: 15px;
+}
+.send-code{
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.logo a {
+  font-size: 50px;
+}
+
+form{
+  padding: 1px;
+
+}
+
+
+
 }
