@@ -73,6 +73,7 @@ form h4 {
   border: none;
   font-size: 17px;
   cursor: pointer;
+  margin-top: 10px;
 
 }
 
@@ -150,13 +151,6 @@ form h4 {
   width: 40px;
 }
 
-
-
-
-
-
-
-
 .log {
   display: flex;
   justify-content: center;
@@ -181,7 +175,6 @@ form h4 {
 .nav {
   display: flex;
   justify-content: space-between;
-  /* background-color: red; */
 }
 
 .resetpass {
@@ -203,7 +196,6 @@ form h4 {
   color: #F55615;
 }
 
-
 .google-btn {
   border-radius: 10px;
   border: 1px solid white;
@@ -215,9 +207,7 @@ form h4 {
   width: 100%;
   padding: 6px;
   cursor: pointer;
-
 }
-
 
 .google-btn img {
   width: 14px;
