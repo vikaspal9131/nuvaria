@@ -1,20 +1,10 @@
 window.addEventListener('load', function () {
   const loaderTimeout = 2000; 
-
   setTimeout(() => {
       document.getElementById('loading').style.display = 'none';
-      
-    
-      content.style.display = 'block';
-   
-
-      
-      
+      content.style.display = 'block'; 
   }, loaderTimeout);
-
 });
-
-
 
 
 
