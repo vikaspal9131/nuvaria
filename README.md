@@ -18,7 +18,7 @@ Check out the live version of the project: https://nuvaria.onrender.com/
 
 ## 🛠️ Technologies Used
 - **Frontend**: HTML, CSS, JavaScript
-- **Styling**: Bootstrap (for basic styling), Locomotive Scroll (for smooth scrolling)
+- **Styling**: css Locomotive Scroll (for smooth scrolling)
 - **Authentication**: Firebase (Google sign-in)
 - **Hosting**: Render (for deployment)
 
