@@ -24,6 +24,7 @@ body {
   color: var(--c-text-primary);
   display: flex;
   user-select: none;
+
  
 }
 
@@ -64,6 +65,7 @@ a {
   padding: 2vw 4vw 6vw;
   display: flex;
   flex-direction: column;
+
 }
 
 .app-header {
@@ -101,9 +103,11 @@ a {
 
 .app-header-actions-buttons {
   display: flex;
-  border-left: 1px solid var(--c-gray-600);
+
   margin-left: 2rem;
   padding-left: 2rem;
+  
+  
 }
 .app-header-actions-buttons > * + * {
   margin-left: 1rem;
@@ -140,6 +144,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
  
   
 }
@@ -150,7 +155,7 @@ a {
 }
 
 .footer {
-  margin-top: auto;
+  /* margin-top: auto; */
 }
 .footer h1 {
   font-size: 1.5rem;
@@ -207,16 +212,15 @@ a {
   flex-direction: column;
   align-items: flex-start;
   color: var(--c-text-tertiary);
+
 }
 .navigation a {
   display: flex;
   align-items: center;
   text-decoration: none;
-  transition: 0.25s ease;
+ 
 }
-.navigation a * {
-  transition: 0.25s ease;
-}
+
 .navigation a i {
   margin-right: 0.75rem;
   font-size: 1.25em;
@@ -311,7 +315,7 @@ a {
 .tiles {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
  
   margin-top: 30px;
 }
@@ -639,13 +643,10 @@ a {
 .payment-section-header p {
   color: var(--c-text-tertiary);
   font-size: 1rem;
+  margin-top: 20px;
 }
-.payment-section-header div {
-  padding-left: 1rem;
-  margin-left: auto;
-  display: flex;
-  align-items: center;
-}
+
+
 
 
 .card-button {
@@ -712,10 +713,13 @@ a {
   border: 1px solid currentColor;
   color: var(--c-text-tertiary);
   border-radius: 6px;
-  padding: 0.75em 2.5em;
+  padding: 0.75em 1.7em;
   background-color: transparent;
   transition: 0.25s ease;
   cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
 }
 .save-button:focus, .save-button:hover {
   color: var(--c-white);
@@ -745,7 +749,14 @@ a {
 .gen-image{
   width: 100%;
   height: 50vh;
-  background-color: red;
+  /* background-color: red; */
+  /* border: 1px solid white; */
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #383636;
+
 }
 
 
@@ -760,7 +771,128 @@ textarea {
   color: white;
   resize: none;
   margin-top: 30px;
-  width: 370px;
+  width: 340px;
  outline:  none;
 }
 
+
+.img-output{
+  width: 300px;
+
+}
+.img-output img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.img-detail{
+  width: 58%;
+  /* background: red; */
+  height: 96%;
+}
+
+.img-detail h1{
+  font-size: 2rem;
+  margin-top: 10px;
+}
+.img-detail h3{
+  font-size: 1.075rem;
+  margin-top: 20px;
+  color: #ffffff;  
+}
+.img-detail p{
+  width:450px;
+  font-size: 0.99rem;
+  margin-top: 10px;
+  color: #969593;
+  text-align: justify; 
+}
+
+
+.other-detail{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40%;
+  color: white;
+
+  
+}
+
+.part1{
+  width:100px;
+
+}
+.part2{
+  width: 100px;
+  
+}
+
+#download-btn{
+  background-color:#BC4B21;
+  /* margin-top: 10px; */
+  text-decoration: none; 
+  color: inherit; 
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: white;
+  /* margin-right: 20px; */
+
+}
+
+
+.download-btn{
+  width: 60%;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-body1{
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  border: 0.2px solid white;
+  border-radius: 30px;
+  padding: 7px 0px;
+  margin-top: 30px;
+}
+ 
+#btn-stander{
+  padding: 8px 30px ;
+  border-radius: 30px;
+  border: none;
+  font-size: 1.1rem;
+  background:none;
+  color: white;
+  cursor: pointer;
+}
+
+#btn-hd{
+  padding: 8px 50px ;
+  border-radius: 30px;
+  border: none;
+  font-size: 1.1rem;
+  background:none;
+  color: white;
+  cursor: pointer;
+}
+
+
+.model{
+  margin-top: 20px;
+}
+
+#btn {
+  background-color:#BC4B21;
+  margin-top: 40px;
+  text-decoration: none; 
+  color: inherit; 
+  padding: 15px 110px;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.3rem;
+  border: none;
+  /* margin-right: 20px; */
+}
