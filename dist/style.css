@@ -850,33 +850,34 @@ textarea {
   justify-content: space-between;
 }
 .btn-body1{
-  width: 80%;
+  width: 70%;
   display: flex;
-  justify-content: space-around;
-  border: 0.2px solid white;
-  border-radius: 30px;
+  justify-content: space-between;
+  align-items: center;
   padding: 7px 0px;
   margin-top: 30px;
 }
  
 #btn-stander{
-  padding: 8px 30px ;
-  border-radius: 30px;
+  padding: 12px 30px ;
+  border-radius: 10px;
   border: none;
   font-size: 1.1rem;
   background:none;
   color: white;
   cursor: pointer;
+  border: 1px solid white;
 }
 
 #btn-hd{
-  padding: 8px 50px ;
-  border-radius: 30px;
+  padding: 12px 50px ;
+  border-radius: 10px;
   border: none;
   font-size: 1.1rem;
   background:none;
   color: white;
   cursor: pointer;
+  border: 1px solid white;
 }
 
 
