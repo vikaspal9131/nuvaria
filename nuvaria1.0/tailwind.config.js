@@ -1,5 +1,7 @@
 module.exports = {
-  content: ["./src/index.html"],
+  content: ["./src/index.html" ,
+      "./src/login.html"
+  ],
   theme: {
     extend: {
       spacing: {
