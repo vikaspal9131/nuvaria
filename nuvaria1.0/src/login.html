@@ -5,31 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login Page</title>
   <link rel="stylesheet" href="output.css">
-  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 </head>
-<body class="bg-gray-100 h-screen flex items-center justify-center">
+<body class="bg-white h-screen flex items-center justify-center">  
+            <div class="p-5">
+                <h3 class="text-2xl mb-0.5 font-medium"></h3>
+                <p class="mb-4 text-sm font-normal text-gray-800"></p>
 
-  <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-sm">
-    <h2 class="text-2xl font-semibold text-center text-gray-800 mb-6">Login</h2>
+                <div class="text-center">
+                    <p class="mb-3 text-2xl font-semibold leading-5 text-slate-900">
+                        Login to your account
+                    </p>
+                    <p class="mt-2 text-sm leading-4 text-slate-600">
+                        You must be logged in to perform this action.
+                    </p>
+                </div>
 
-    <form action="#" method="POST">
-      <div class="mb-4">
-        <label for="email" class="block text-sm font-medium text-gray-600">Email Address</label>
-        <input type="email" id="email" name="email" required class="w-full px-4 py-2 mt-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-indigo-500 focus:outline-none">
-      </div>
+                <div class="mt-7 flex flex-col gap-2">
 
-      <div class="mb-6">
-        <label for="password" class="block text-sm font-medium text-gray-600">Password</label>
-        <input type="password" id="password" name="password" required class="w-full px-4 py-2 mt-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-indigo-500 focus:outline-none">
-      </div>
+                    <button
+                        class="inline-flex h-10 w-full items-center justify-center gap-2 rounded border border-slate-300 bg-white p-2 text-sm font-medium text-black outline-none focus:ring-2 focus:ring-[#333] focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-60"><img
+                            src="https://www.svgrepo.com/show/512317/github-142.svg" alt="GitHub"
+                            class="h-[18px] w-[18px] "> 
+                        Continue with GitHub
+                    </button>
 
-      <button type="submit" class="w-full py-2 bg-indigo-500 text-white font-semibold rounded-md hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500">Login</button>
+                    <button
+                        class="inline-flex h-10 w-full items-center justify-center gap-2 rounded border border-slate-300 bg-white p-2 text-sm font-medium text-black outline-none focus:ring-2 focus:ring-[#333] focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-60"><img
+                            src="https://www.svgrepo.com/show/475656/google-color.svg" alt="Google"
+                            class="h-[18px] w-[18px] ">Continue with
+                        Google
+                    </button>
 
-      <div class="mt-4 text-center text-sm">
-        <p class="text-gray-600">Don't have an account? <a href="#" class="text-indigo-500 hover:text-indigo-600">Sign up</a></p>
-      </div>
-    </form>
-  </div>
+
+                    <button
+                        class="inline-flex h-10 w-full items-center justify-center gap-2 rounded border border-slate-300 bg-white p-2 text-sm font-medium text-black outline-none focus:ring-2 focus:ring-[#333] focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-60"><img
+                            src="https://www.svgrepo.com/show/448234/linkedin.svg" alt="Google"
+                            class="h-[18px] w-[18px] ">Continue with
+                        LinkedIn
+                    </button>
+                </div>
+
+                
+              
+</div>
+
 
 </body>
 </html>
