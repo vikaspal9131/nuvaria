@@ -11,7 +11,7 @@ window.addEventListener('load', function () {
 const locoScroll = new LocomotiveScroll({
   el: document.querySelector("#main"),
   smooth: true ,
-  lerp:0.07
+  lerp:0.09
 });
 
 
