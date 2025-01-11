@@ -1,7 +1,7 @@
 # nuvaria
 
 
-# This is an update of Bavaria. In the upcoming time, it will change, like the given UI, multiple features, user dashboard, etc.
+# This is an update of Navaria. In the upcoming time, it will change, like the given UI, multiple features, user dashboard, etc.
 
 
 
