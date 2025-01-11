@@ -1,5 +1,11 @@
 # nuvaria
 
+
+# This is an update of Bavaria. In the upcoming time, it will change, like the given UI, multiple features, user dashboard, etc.
+
+
+
+
 Nuvaria is a web application that leverages cutting-edge technologies to provide users with a seamless image generation experience. The platform features Firebase authentication, a modern UI/UX with smooth scrolling effects, and responsive design.
 
 ## 🌐 Live Demo
