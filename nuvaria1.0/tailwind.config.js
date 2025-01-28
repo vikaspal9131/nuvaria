@@ -1,18 +1,19 @@
 module.exports = {
-  content: ["./src/index.html" ,
-      "./src/login.html",
-      "./src/dashbord.html",
+  content: [
+    "./src/index.html",
+    "./src/login.html",
+    "./src/dashbord.html",
   ],
   theme: {
     extend: {
-      spacing: {
-        'wide-word': '10000px', // Adjust as needed
-      },
       colors: {
-        'custom-color': '#1F1F1F', // Replace with your color name and value
+        customred: {
+          400: '#ff0000', 
       },
     },
   },
+},
   plugins: [],
-}
+};
+
 
