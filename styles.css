@@ -74,19 +74,11 @@ body::-webkit-scrollbar {
   display: none; 
 }
 
-
 .home-base {
-  width: 100%;
-  height: 90vh;
   background-color: #121315;
-  user-select: none;
   color: #E7E7E7;
 }
 
-
-#main{
-  background-color: #000000;
-}
 header {
   display: flex;
   align-items: center;
@@ -120,7 +112,7 @@ header {
   list-style: none;
   display: flex;
   gap: 40px;
-  padding: 12px 40px;
+  align-items: center;  
 }
 
 .nav-links li a {
@@ -136,14 +128,13 @@ header {
 }
 
 .sign-in .sign-in-btn {
-  color: white;
-  background-color: #D05A28;
-  padding: 10px 35px;
-  font-weight: 500;
+  color: black;
+  font-weight: 600;
   text-decoration: none;
-  border-radius: 30px;
-  transition: 300ms;
-
+  transition: 300ms; 
+  background: white;
+  padding: 7px 20px ;
+  border-radius: 3px;
 }
 
 .sign-in .sign-in-btn:hover {
@@ -151,47 +142,40 @@ header {
 }
 
 .centered-content {
-  height: 86vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: rgb(211, 216, 218);
+  margin-top: 90px;
 }
 
-
-
-.home-content {
-  margin-bottom: 10px;
-  position: absolute;
-  z-index: 2;
-}
-
-.home-img img {
-  width: 200px;
-  align-items: end;
-  position: relative;
-  z-index: 1;
-  margin-top: 400px;
-  margin-left: 1200px;
-  animation:  rotate  linear  10s infinite;
-  display: hidden;
-}
 
 .home-content h1 {
-  font-size: 65px;
-  margin-bottom: 20px;
-  font-weight: 600;
+  font-size: 60px;
+  margin-bottom: 10px;
+  font-weight: 500;
   color: #FFFFFF;
-  font-family: "Rubik", sans-serif;
-  margin-top: 60px;
+  font-family: "Funnel Display";
 }
 
 .home-content p {
-  margin-top: 30px;
-  font-size: 16px;
+  font-size: 18px;
   color: #87888A;
-  font-family: "Rubik", sans-serif;
+}
+.home-content h3 {
+  font-size: 14px;
+  font-weight:400;
+  color: #87888A;
+  /* background: #dfdede; */
+  display: inline-block;
+  padding: 0px 20px;
+  border-radius: 20px;
+
+  
+}
+
+.home-content h4{
+  font-weight: 400;
 }
 
 
@@ -257,13 +241,16 @@ header {
   color: white;
 }
 
-.page2 {
+/* .page2 {
   width: 100%;
   height: 100vh;
   background: black;
+} */
+
+.dashbord img{
+  margin-top: 30px;
+  width: 90%;
 }
-
-
 .feature {
   width: 100%;
   height: 100vh;
