@@ -87,7 +87,7 @@ header {
 }
 
 .navbar {
-  width: 90%;
+  width: 85%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -247,9 +247,11 @@ header {
   background: black;
 } */
 
+
 .dashbord img{
+  border: 1px solid #5c5757;
   margin-top: 30px;
-  width: 90%;
+  width: 80%;
 }
 .feature {
   width: 100%;
@@ -396,52 +398,20 @@ header {
   -webkit-backdrop-filter: blur(14.6px);
 }
 
-.moving-text {
-  white-space: nowrap;
-  overflow-x: hidden;
-  width: 100%;
-  user-select: none;
-  background-color: rgb(0, 0, 0);
-}
-
-
-.moving-text::-webkit-scrollbar {
-  display: none;
-}
-
-.con {
-  margin-top: 30px;
-  white-space: nowrap;
-  display: inline-block;
-  font-family: "Rubik", sans-serif;
-  animation-name: move-right;
-  animation-duration: 20s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  color: #ffffff;
-}
-
-.moving-text h1 {
-  font-size: 30px;
-  margin-left: 50px;
-  display: inline-block;
-  font-weight: 400;
-
-}
 
 .getstart-page {
-  background-color: #010101;
+ 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
+  overflow-x: hidden;
 }
 
-.getstart-page p {
-  color: #EC3B00;
-  font-size: 30px;
+.getstart-container{
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 
@@ -450,7 +420,7 @@ header {
 .getstart-page h1 {
   color: #ffffff;
   font-size: 5rem;
-  font-weight: 500;
+  font-weight: 400;
   font-family: "Rubik", sans-serif;
   text-align: center;
   margin-top: 80px;
@@ -459,14 +429,6 @@ header {
 
 }
 
-.getstart-page h3 {
-  color: #ffffff;
-  font-weight: 400;
-  text-align: center;
-  margin-top: 20px;
-  font-size: 1.4rem;
-  margin-top: 50px;
-}
 
 .getstart-hover-button {
   position: relative;
@@ -517,6 +479,41 @@ header {
   /* Move to the original left */
 }
 
+.box{
+  width: 20%;
+  height: 100px;
+  /* background: red; */
+}
+.moving-text {
+  white-space: nowrap;
+  overflow-x: hidden;
+  user-select: none;
+  display: flex;
+}
+
+
+.moving-text::-webkit-scrollbar {
+  display: none;
+}
+
+.con {
+  font-family: "Rubik", sans-serif;
+  animation-name: move-right;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  color: #ffffff;
+
+}
+
+.moving-text h1 {
+  font-size: 30px;
+  margin-left: 50px;
+  display: inline-block;
+  font-weight: 400;
+  padding: 0px;
+
+}
 
 .dote-line {
   width: 40px;
