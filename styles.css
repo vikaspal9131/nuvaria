@@ -530,13 +530,11 @@ header {
   display: flex;
   justify-content: center;
   gap: 60px;
+  align-items: center;
  
 }
 
-.images-side {
-  /* display: flex; */
-  /* justify-content: space-around; */
-}
+
 
 .image-about {
   display: flex;
@@ -585,7 +583,7 @@ header {
 }
 
 .image-container {
-  height: 100vh;
+ 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -594,7 +592,7 @@ header {
 
 
 .image-reel {
-  height: 100vh;
+  height:400px;
   overflow-y: hidden;
   position: relative;
   display: grid;
