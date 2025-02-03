@@ -1,7 +1,7 @@
 # nuvaria
 
 
-# This is an update of Navaria. In the upcoming time, it will change, like the given UI, multiple features, user dashboard, etc.
+# on update.
 
 
 
@@ -22,7 +22,7 @@ Check out the live version of the project: https://nuvaria.onrender.com/
 
 ## Project image 
 
-<img src="assets/image/Screenshot 2025-01-01 014255.png" alt="Nuvaria Screenshot" width="800">
+<img src="assets/image/sample.png" alt="Nuvaria Screenshot" width="800">
 
 ## 🛠️ Technologies Used
 - **Frontend**: HTML, CSS, JavaScript
