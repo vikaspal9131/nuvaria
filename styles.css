@@ -367,34 +367,8 @@ header {
 
 }
 
-.feature-detail {
-  width: 100%;
-  height: 90vh;
-  color: white;
-  display: flex;
-  align-items: center;
-  border-radius: 10px;
-  margin-top: 30px;
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.19);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(3.8px);
-  -webkit-backdrop-filter: blur(3.8px);
-  /* border: 1px solid rgba(255, 255, 255, 0.3); */
-}
 
-.feature-bottom {
-  margin-top: 30px;
-  padding: 14px;
-  background-color: #007bff;
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.19);
-  border-radius: 10px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(14.6px);
-  -webkit-backdrop-filter: blur(14.6px);
-}
+
 
 
 .getstart-page {
@@ -415,70 +389,59 @@ header {
 
 .getstart-page h1 {
   color: #ffffff;
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: 400;
   font-family: "Rubik", sans-serif;
   text-align: center;
   margin-top: 80px;
   margin-bottom: -50px;
-  line-height: 70px;
-
+  font-weight: 500;
 }
 
 
 .getstart-hover-button {
   position: relative;
   display: inline-block;
-  padding: 10px 20px;
   font-size: 16px;
   color: #ffffff;
   background-color: black;
   border: none;
-  border-radius: 100px;
-  padding: 15px 80px;
+  border-radius: 10px;
+  padding: 15px 40px;
   cursor: pointer;
   overflow: hidden;
   transition: color 0.4s;
   box-shadow: 0 0 60px 3px #fefeff80;
-  font-size: 3.5rem;
+  font-size:2rem;
   margin-top: 30px;
   z-index: 1;
   margin-bottom: 90px;
-
 }
-
 
 .getstart-hover-button:hover {
   color: black;
-
 }
-
 
 .getstart-hover-button::before {
   content: "";
   position: absolute;
   top: 0;
   top: -100%;
-  /* Start off-screen from the top */
   left: -100%;
   width: 100%;
   height: 100%;
   background-color: #ffffff;
   transition: left 0.4s;
   z-index: -1;
-  /* Background overlay behind the text */
 }
 
 .getstart-hover-button:hover::before {
   top: 0;
-  /* Move to the original top */
   left: 0;
-  /* Move to the original left */
 }
 
 .box{
   width: 20%;
- 
 }
 .moving-text {
   white-space: nowrap;
@@ -499,11 +462,10 @@ header {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   color: #ffffff;
-
 }
 
 .moving-text h1 {
-  font-size: 30px;
+  font-size: 20px;
   margin-left: 50px;
   display: inline-block;
   font-weight: 400;
@@ -511,221 +473,12 @@ header {
 
 }
 
-.dote-line {
-  width: 40px;
-  height: 79vh;
-  margin-top: 90px;
-  margin-right: 6px;
-  border-bottom: 9px dotted #4e4949;
-  border-top: 9px dotted #4e4949;
-  border-left: 9px dotted #4e4949;
-}
 
 
 .getstart-container {
   text-align: center;
 }
 
-.gallery {
-  display: flex;
-  justify-content: center;
-  gap: 60px;
-  align-items: center;
- 
-}
-
-
-
-.image-about {
-  display: flex;
-  margin-top: 60px;
-  justify-content: center;
-  padding: 30px;
-}
-
-
-.image-text h4 {
-  font-size: 3.7rem;
-}
-
-.image-text h3 {
-  font-size: 2rem;
-  color: #D05A28;
-}
-
-.image-sub-text {
-  width: 100%;
-  height: 50vh;
-  display: flex;
-  margin-top: 30px;
-  font-size: 1rem;
-}
-
-.image-sub-text p {
-  margin-bottom: 30px;
-}
-
-.text-point {
-  margin-bottom: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
-
-
-
-.line-div {
-  width: 1px;
-  height: 90%;
-  margin-right: 30px;
-  border-left: dotted rgb(132, 129, 129) 10px;
-}
-
-.image-container {
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
- 
-}
-
-
-.image-reel {
-  height:550px;
-  overflow-y: hidden;
-  position: relative;
-  display: grid;
-  mask:linear-gradient(0deg, black, 40%, transparent);
-
- 
-}
-
-.image1 {
-  height: 40vh;
-  margin-bottom: 30px;
-  border-radius: 30px;
-  margin-left: 10px;
-  overflow-y: hidden;
-  animation-name: move-top;
-  animation-duration: 10s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-
-}
-
-.image1 img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.image2 {
-  height: 40vh;
-  margin-bottom: 30px;
-  border-radius: 30px;
-  margin-left: 10px;
-  overflow-y: hidden;
-  animation-name:move-bottom;
-  animation-duration: 10s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-
-}
-
-.image2 img {
-  height: 100%;
-  object-fit: cover;
-}
-
-
-.image3 {
-  height: 40vh;
-  margin-bottom: 30px;
-  border-radius: 30px;
-  margin-left: 10px;
-  overflow-y: hidden;
-  animation-name: move-top;
-  animation-duration: 10s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-.image3 img {
-  height: 100%;
-  object-fit: cover;
-}
-
-
-.image-reel::-webkit-scrollbar {
-  display: none;
-}
-
-.image1::-webkit-scrollbar {
-  display: none;
-}
-
-.image2::-webkit-scrollbar {
-  display: none;
-}
-
-.image3::-webkit-scrollbar {
-  display: none;
-}
-
-
-.image-about h1 {
-  font-size: 2.5rem;
-  color: white;
-}
-
-.image-about {
-  font-size: 1rem;
-  color: white;
-}
-
-.image-text h1 {
-  font-weight: 500;
-  width: 80%;
-  text-align: start;
-}
-
-.faq-page {
-  width: 100%;
-  height: 50vh;
-  background-color: black;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.9rem;
-  text-align: center;
-}
-
-.faq-page h1 {
-  font-size: 4rem;
-  margin-top: 30px;
-  line-height: 60px;
-}
-
-.faq-page h2 {
-  font-size: 1.2rem;
-  font-weight: 400;
-  margin-top: 30px;
-}
-
-.faq {
-  width: 40vw;
-  text-align: start;
-}
-
-.faq details {
-  width: 100%;
-  height: 10vh;
-  /* margin-bottom: 50px; */
-
-}
 
 .join-btn {
   margin: 30px;
@@ -738,15 +491,13 @@ header {
 
 .footer {
   width: 100%;
+  height: 50vh;
   display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
-  padding-top: 40px;
-  /* background-color: green; */
 }
 
 .footer-part1 {
-  /* width: 100%; */
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
 }
@@ -1209,16 +960,11 @@ a{
   width: 80vw;
   }
   
-  .gallery{
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
+ 
   .image3{
     display: none;
   }
-  .image-text h4{
-    font-size: 2.6rem;
-  }
+
   .text-point{
     font-size: 1rem;
     font-weight: 300;
@@ -1409,7 +1155,7 @@ form h2{
 
 
 .loader-icon{
-  color: #EC3B00;
+  color: #FF5F38;
   font-size: 45px;
   margin-right: 10px;
   font-weight: 900;
