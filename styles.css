@@ -583,7 +583,7 @@ header {
 }
 
 .image-container {
- 
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -592,10 +592,11 @@ header {
 
 
 .image-reel {
-  height:400px;
+  height:550px;
   overflow-y: hidden;
   position: relative;
   display: grid;
+  mask:linear-gradient(0deg, black, 40%, transparent);
 
  
 }
