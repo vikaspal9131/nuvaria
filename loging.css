@@ -22,7 +22,7 @@ html body {
 }
 
 .google-btn {
-  border-radius: 10px;
+  border-radius: 5px;
   border: 1px solid rgb(117, 117, 117);
   display: flex;
   align-items: center;
