@@ -498,10 +498,11 @@ a{
 }
 
 .loader-icon{
-  color: #FF5F38;
-  font-size: 45px;
-  margin-right: 10px;
-  font-weight: 900;
+margin-right: 10px;
+
+}
+.loader-icon img{
+  width: 45px;
 }
 
 .loader {
