@@ -79,10 +79,11 @@ body::-webkit-scrollbar {
   color: #E7E7E7;
 }
 
-header {
+header{
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .navbar {
@@ -90,9 +91,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
   z-index: 10;
-  margin-top: 20px;
 }
 
 .logo a {
@@ -464,7 +463,7 @@ header {
 }
 
 #userPhoto{
-  width: 55%;
+  width: 35%;
   border-radius: 50%;
 }
 

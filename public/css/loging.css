@@ -37,6 +37,38 @@ html body {
 .google-btn img {
   width: 15px;
 }
+.discord-btn {
+  border-radius: 5px;
+  border: 1px solid rgb(117, 117, 117);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+  width: 100%;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.discord-btn img {
+  width: 15px;
+}
+.github-btn {
+  border-radius: 5px;
+  border: 1px solid rgb(117, 117, 117);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+  width: 100%;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.github-btn img {
+  width: 15px;
+}
 
 .heading{
   text-align: center;
