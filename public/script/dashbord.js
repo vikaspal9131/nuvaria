@@ -1,55 +1,53 @@
-const token = "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"
-const inputTxt = document.getElementById("input")
-const image = document.getElementById("image")
-const btn = document.getElementById("btn")
+const token = "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";
+const inputTxt = document.getElementById("input");
+const image = document.getElementById("image");
+const btn = document.getElementById("btn");
 const downloadBtn = document.getElementById("download-btn");
-
-
-
+const loader = document.querySelector(".loader-container"); 
 
 async function query() {
-	image.src = "/assets/loaderr.gif"
-	const response = await fetch(
-		"https://api-inference.huggingface.co/models/ZB-Tech/Text-to-Image",
-		{
-			headers: {
-				Authorization: `Bearer ${token}` ,
-				"Content-Type": "application/json",
-			},
-			method: "POST",
-			body: JSON.stringify({"inputs": inputTxt.value}),
-		}
-	);
-	const result = await response.blob();
-	return result;
+    const response = await fetch(
+        "https://api-inference.huggingface.co/models/ZB-Tech/Text-to-Image",
+        {
+            headers: {
+                Authorization: `Bearer ${token}`,
+                "Content-Type": "application/json",
+            },
+            method: "POST",
+            body: JSON.stringify({ "inputs": inputTxt.value }),
+        }
+    );
+    const result = await response.blob();
+    return result;
 }
 
-
-
-const input = document.getElementById('input'); 
-
-btn.addEventListener('click', async function () {
-    const promptText = input.value.trim();
-
+btn.addEventListener("click", async function () {
+    const promptText = inputTxt.value.trim();
 
     if (!promptText) {
-        alert("Please enter your prompt to get image 🚀"); 
+        alert("Please enter your prompt to get an image 🚀");
         return;
     }
 
     downloadBtn.style.display = "none"; 
+    image.style.display = "none"; 
+    loader.style.display = "flex"; 
+   
 
     try {
-        const response = await query(); 
+        const response = await query();
         const objectURL = URL.createObjectURL(response);
+        
         image.src = objectURL;
+        image.style.display = "block"; 
+        loader.style.display = "none"; 
 
-       
-        downloadBtn.style.display = "inline-block"; 
-        downloadBtn.href = objectURL;               
-        downloadBtn.download = "nuvaria.png";       
+        downloadBtn.style.display = "inline-block";
+        downloadBtn.href = objectURL;
+        downloadBtn.download = "nuvaria.png";
     } catch (error) {
         console.error("Error generating image:", error);
+        loader.style.display = "none"; 
     }
 });
 
