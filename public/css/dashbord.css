@@ -1,21 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-/* :root {
-  --c-gray-900: #000000;
-  --c-gray-800: #1f1f1f;
-  --c-gray-700: #2e2e2e;
-  --c-gray-600: #313131;
-  --c-gray-500: #969593;
-  --c-gray-400: #a6a6a6;
-  --c-gray-300: #bdbbb7;
-  --c-gray-200: #f1f1f1;
-  --c-gray-100: #ffffff;
-  --c-green-500: #45ffbc;
-  --c-olive-500: #e3ffa8;
-  --c-white: var(--c-gray-100);
-  --c-text-primary: var(--c-gray-100);
-  --c-text-secondary: var(--c-gray-200);
-  --c-text-tertiary: var(--c-gray-500);
-} */
+
 
 body {
 
@@ -157,12 +141,13 @@ a {
 }
 
 .footer {
-  margin-top: auto;
+  margin-top: 130px;
+  text-align:end;
+  margin-right: 70px;
 }
 .footer h1 {
   font-size: 1.5rem;
   line-height: 1.125;
-  display: flex;
   align-items: flex-start;
 }
 .footer h1 small {
@@ -170,11 +155,10 @@ a {
   margin-left: 0.25em;
 }
 .footer div {
-  border-top: 1px solid var(--c-gray-600);
-  margin-top: 1.5rem;
-  padding-top: 1rem;
+  color: #969593;
+  margin-top: 0.5rem;
   font-size: 0.75rem;
-  color: var(--c-text-tertiary);
+
 }
 
 .logo {
@@ -232,8 +216,8 @@ a {
   margin-top: 1.25rem;
 }
 .navigation a:hover, .navigation a:focus {
-  transform: translateX(4px);
-  color: var(--c-text-primary);
+  transform: translateX(2px);
+  color: #BC4B21;
 }
 
 .tabs {
@@ -255,9 +239,9 @@ a {
   align-items: center;
   border: 0;
   background: transparent;
-  cursor: pointer;
   color: var(--c-text-tertiary);
   transition: 0.25s ease;
+  margin-left: 130px;
 }
 .user-profile:hover, .user-profile:focus {
   color: var(--c-text-primary);
@@ -833,32 +817,23 @@ textarea {
 
 #download-btn{
   background-color:#BC4B21;
-  /* margin-top: 10px; */
   text-decoration: none; 
   color: inherit; 
-  padding: 10px 30px;
+  padding: 10px 60px;
   border-radius: 10px;
   color: white;
-  /* margin-right: 20px; */
 
 }
 
 
 .download-btn{
-  width: 60%;
+  width: 90%;
   margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.btn-body1{
-  width:80%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 7px 0px;
-  margin-top: 30px;
-}
+
  
 #btn-stander{
   padding: 12px 30px ;
@@ -900,3 +875,7 @@ textarea {
   border: none;
 }
 
+.navigation a img{
+  width: 30px;
+  margin-right: 10px;  
+}
