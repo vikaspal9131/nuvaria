@@ -1,0 +1,18 @@
+{
+  "name": "nuvaria",
+  "version": "1.0.0",
+  "description": "Nuvaria is a web application that leverages cutting-edge technologies to provide users with a seamless image generation experience. The platform features Firebase authentication, a modern UI/UX with smooth scrolling effects, and responsive design.",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
