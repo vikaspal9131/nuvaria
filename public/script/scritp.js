@@ -7,8 +7,6 @@ window.addEventListener('load', function () {
 });
 
 
-
-
 const texts = [
   "Welcome to nuvaria.AI Generate image in seconds...  ",
   "Effortless Image Creation – Explore Endless Visual Styles.",

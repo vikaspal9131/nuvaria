@@ -76,8 +76,8 @@
 	
 		<div class="app-body-main-content">
     <section class="gen-image">
-			<article class="img-output">
-				<img src="./image/main_img.jpg" alt="">						
+			<article class="img-output"  >
+				<img id="image" src="./image/main_img.jpg" alt="">						
 		</article>
 		<div class="img-detail">
 			<h1>Dark Fanky </h1>
@@ -103,7 +103,7 @@
 				</div>
 				
 			</div>
-			<div class="download-btn">
+			<div  class="download-btn">
 
 				<a id="download-btn" href="#"> Download <i class="ri-download-cloud-2-line"></i></a>
 				<a id="download-btn" href="#"> Save<i class="ri-download-cloud-2-line"></i></a>
@@ -137,37 +137,22 @@
 				<div class="payment-section-header">
 					<p>Describe your image </p>			
 				</div>
+
 				<div class="input-base">
 					<textarea  id="input" placeholder="Enter your text ."></textarea>
 				</div>
-
-				<!-- <div class="payment-section-header">
-					<p>Size of image  </p>			
+				
+				<div class="option-choosing">
+					<label for="options">Size of the image </label>
+					<select id="options">
+						<option>150 x 150 </option>
+						<option>300 x 300</option>
+						<option>1200 x 800</option>
+						<option>1200 x 630</option>
+					</select>
 				</div>
-		   
-				
-				<div class="payment-section-footer">
-					
-					<button class="save-button">
-						1:1
-					</button>
-					<button class="save-button">
-						1:2
-					</button>
-					<button class="save-button">
-						4:5
-					</button>
-					<button class="save-button">
-						1:1
-					</button>
-				
-				</div> -->
 
-   
-				<!-- <h5 class="model"> Choose your model </h5> -->
-				
-
-				<a href="#image" class="btn-body" >
+				<a href="#" class="btn-body" >
 					<button id="btn"> Generate <i class="ri-rocket-fill"></i></button>
 					</a>
 
@@ -182,6 +167,6 @@
 		</div>
 	</div>
 </div>
-
+<script src="./script/dashbord.js"></script>
 </body>
 </html>
