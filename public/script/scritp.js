@@ -51,8 +51,3 @@ function showRegisterForm() {
 
 
 document.addEventListener("DOMContentLoaded", showLoginForm);
-
-
-
-
-
