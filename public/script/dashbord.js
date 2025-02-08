@@ -4,8 +4,12 @@ const image = document.getElementById("image");
 const btn = document.getElementById("btn");
 const downloadBtn = document.getElementById("download-btn");
 const loader = document.querySelector(".loader-container"); 
+const showTime = document.querySelector("#time");
+const modelName = document.querySelector("#modelName");
 
 async function query() {
+    const startTime = performance.now(); // Start time tracking
+
     const response = await fetch(
         "https://api-inference.huggingface.co/models/ZB-Tech/Text-to-Image",
         {
@@ -17,9 +21,17 @@ async function query() {
             body: JSON.stringify({ "inputs": inputTxt.value }),
         }
     );
+
+    const endTime = performance.now(); // End time tracking
+    const timeTaken = (endTime - startTime).toFixed(2); // Calculate time in ms
+
+    showTime.innerText = `${timeTaken}ms`; // Display in the element
+    modelName.innerText = "Hugging face"
+
     const result = await response.blob();
     return result;
 }
+
 
 btn.addEventListener("click", async function () {
     const promptText = inputTxt.value.trim();
