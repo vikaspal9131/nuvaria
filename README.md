@@ -22,7 +22,7 @@ Check out the live version of the project: https://nuvaria.onrender.com/
 
 ## Project image 
 
-<img src="assets/image/dashboard.png" alt="Nuvaria Screenshot" width="800">
+<img src="./public/image/dashboard.png" alt="Nuvaria Screenshot" width="800">
 
 ## 🛠️ Technologies Used
 - **Frontend**: HTML, CSS, JavaScript
