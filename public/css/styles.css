@@ -772,7 +772,7 @@ form h2{
 } 
 .container {
   text-align: start;
- 
+  margin-top: 200px ;
 }
 
 .container-title {
@@ -789,7 +789,7 @@ form h2{
 .card {
   padding: 20px;
   border-radius: 5px;
-  border: 1px solid rgb(74, 74, 74);
+  /* border: 1px solid rgb(74, 74, 74); */
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   transition: transform 0.3s;
   width: 360px;
